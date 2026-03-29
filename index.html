@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thomas Salvador — Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <nav>
+        <a class="nav-logo" href="#accueil">Thomas Salvador</a>
+        <ul class="nav-links">
+            <li><a href="#presentation">À propos</a></li>
+            <li><a href="#competences">Compétences</a></li>
+            <li><a href="#projets">Projets</a></li>
+            <li><a href="#experiences">Expériences</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero" id="accueil">
+        <h1>Thomas <span>Salvador</span></h1>
+        <p>Étudiant en informatique à l'IUT informatique d'Aix-Marseille site d'Arles — développement, robotique, jeux vidéo.</p>
+        <a class="btn" href="#presentation">En savoir plus</a>
+    </section>
+
+    <section id="presentation">
+        <div>
+            <img src="images/moi.png">
+        </div>
+        <div class="about-text">
+            <div class="section-num">01</div>
+            <h2>À propos</h2>
+            <p>Passionné par l'informatique depuis mon plus jeune âge, j'ai découvert ce domaine grâce à mon père. Cette passion s'est développée à travers les jeux vidéo et s'est concrétisée au lycée avec la spécialité NSI.</p>
+            <p>Après deux ans de licence à l'université de Perpignan, j'ai rejoint l'IUT informatique d'Aix-Marseille site d'Arles pour une formation plus encadrée. Mon objectif est de poursuivre vers un master.</p>
+            <p>En parallèle, je suis secrétaire du BDE. J'aime le sport, la musique, et j'ai longtemps joué aux échecs.</p>
+            <div class="about-facts">
+                <div>
+                    <div class="fact-label">Formation</div>
+                    <div class="fact-value">IUT informatique d'Aix-Marseille site d'Arles — BUT Info</div>
+                </div>
+                <div>
+                    <div class="fact-label">Localisation</div>
+                    <div class="fact-value">Arles, France</div>
+                </div>
+                <div>
+                    <div class="fact-label">Statut</div>
+                    <div class="fact-value">2e année — Dispo stage 2025</div>
+                </div>
+                <div>
+                    <div class="fact-label">Objectif</div>
+                    <div class="fact-value">Master informatique</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="competences">
+        <div class="section-num">02</div>
+        <h2>Compétences</h2>
+        <div class="skills-wrap">
+            <div>
+                <div class="skill-item">
+                    <div class="skill-header"><span>C++</span><span class="skill-pct">90%</span></div>
+                    <div class="skill-track"><div class="skill-fill" data-width="90%"></div></div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-header"><span>Python</span><span class="skill-pct">90%</span></div>
+                    <div class="skill-track"><div class="skill-fill" data-width="90%"></div></div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-header"><span>Laravel</span><span class="skill-pct">80%</span></div>
+                    <div class="skill-track"><div class="skill-fill" data-width="80%"></div></div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-header"><span>C</span><span class="skill-pct">70%</span></div>
+                    <div class="skill-track"><div class="skill-fill" data-width="70%"></div></div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-header"><span>Java</span><span class="skill-pct">60%</span></div>
+                    <div class="skill-track"><div class="skill-fill" data-width="60%"></div></div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-header"><span>React Native</span><span class="skill-pct">50%</span></div>
+                    <div class="skill-track"><div class="skill-fill" data-width="50%"></div></div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-header"><span>Unity / C#</span><span class="skill-pct">55%</span></div>
+                    <div class="skill-track"><div class="skill-fill" data-width="55%"></div></div>
+                </div>
+            </div>
+            <div>
+                <h3 style="color: var(--gray); font-size: 0.8rem; margin-bottom: 1rem; font-weight: 400; text-transform: uppercase; letter-spacing: 0.08em;">Savoir-être</h3>
+                <ul class="soft-list">
+                    <li>Travail en équipe</li>
+                    <li>Communication</li>
+                    <li>Résolution de problèmes</li>
+                    <li>Autonomie</li>
+                    <li>Curiosité</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="projets">
+        <div class="section-num">03</div>
+        <h2>Projets</h2>
+        <div class="projects-list">
+            <a class="project-card" href="gradely.html">
+                <span class="project-num">01</span>
+                <div>
+                    <h3>Gradely</h3>
+                    <p>App mobile de gestion de notes pour enseignants</p>
+                </div>
+                <div class="project-tags">
+                    <span class="tag">React Native</span>
+                    <span class="tag">TypeScript</span>
+                    <span class="tag">SQLite</span>
+                </div>
+            </a>
+            <a class="project-card" href="robot.html">
+                <span class="project-num">02</span>
+                <div>
+                    <h3>Robot Mobile</h3>
+                    <p>Robot autonome qui pousse une balle de golf dans un trou</p>
+                </div>
+                <div class="project-tags">
+                    <span class="tag">Aseba</span>
+                    <span class="tag">Robotique</span>
+                </div>
+            </a>
+            <a class="project-card" href="hypistats.html">
+                <span class="project-num">03</span>
+                <div>
+                    <h3>Hypistats</h3>
+                    <p>Application de stats Hypixel via API REST</p>
+                </div>
+                <div class="project-tags">
+                    <span class="tag">Java</span>
+                    <span class="tag">Swing</span>
+                    <span class="tag">API REST</span>
+                </div>
+            </a>
+            <a class="project-card" href="devart.html">
+                <span class="project-num">04</span>
+                <div>
+                    <h3>Dev'Art</h3>
+                    <p>Jeu VR sur le thème du temps — réalisé en 32h, prix coup de cœur du public</p>
+                </div>
+                <div class="project-tags">
+                    <span class="tag">Unity</span>
+                    <span class="tag">C#</span>
+                    <span class="tag">VR</span>
+                </div>
+            </a>
+            <a class="project-card" href="cryptoportiques.html">
+                <span class="project-num">05</span>
+                <div>
+                    <h3>Cryptoportiques d'Arles</h3>
+                    <p>Visite virtuelle pour la mairie d'Arles — SAE en groupe de 4</p>
+                </div>
+                <div class="project-tags">
+                    <span class="tag">Unity</span>
+                    <span class="tag">TypeScript</span>
+                    <span class="tag">MySQL</span>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <section id="experiences">
+        <div class="section-num">04</div>
+        <h2>Expériences</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <div class="timeline-date">2026</div>
+                <div class="timeline-role">Stage en développement logiciel</div>
+                <div class="timeline-company">École nationale supérieure de la photographie</div>
+                <p class="timeline-desc">Développement d'une application interne en PHP Laravel.</p>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-date">2025</div>
+                <div class="timeline-role">Stage en développement logiciel</div>
+                <div class="timeline-company">Banque Populaire</div>
+                <p class="timeline-desc">Développement d'applications internes en Java.</p>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-date">2024 — 2025</div>
+                <div class="timeline-role">Secrétaire BDE</div>
+                <div class="timeline-company">IUT informatique d'Aix-Marseille site d'Arles</div>
+                <p class="timeline-desc">Organisation d'événements, coordination d'équipe, gestion administrative.</p>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-date">2022 · 2023 · 2024 . 2025</div>
+                <div class="timeline-role">Missions intérim - Adecco</div>
+                <div class="timeline-company">GIFI · Action · Banque Populaire . Milles</div>
+                <p class="timeline-desc">Manutention et service client lors de missions saisonnières.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="section-num">05</div>
+        <h2>Contact</h2>
+        <div class="contact-links">
+            <a class="contact-link" href="mailto:tomsalva2003@gmail.com">Email</a>
+            <a class="contact-link" href="https://www.linkedin.com/in/thomas-salvador-489367226/" target="_blank">LinkedIn</a>
+            <a class="contact-link" href="https://github.com/Tsalvador03/" target="_blank">GitHub</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Thomas Salvador</p>
+        <p>IUT informatique d'Aix-Marseille site d'Arles</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
